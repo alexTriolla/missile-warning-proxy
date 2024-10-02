@@ -1,0 +1,641 @@
+[
+  {
+    "time": "2024-10-01T10:54:43.524Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:54:49.339Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:54:55.252Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:01.168Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:07.411Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:13.415Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:19.206Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:25.183Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:31.174Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:37.200Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:43.168Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:49.174Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:55:55.182Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:56:01.194Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:56:07.180Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:56:13.159Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:56:19.162Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:56:25.187Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:56:31.176Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T10:56:37.180Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:09:00.972Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:02.653Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:03.621Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:04.577Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:05.506Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:06.549Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:07.398Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:08.416Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:09:09.399Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:10:10.480Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:10:12.816Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:10:14.157Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:10:15.681Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:13.074Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:14.587Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:15.846Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:17.219Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:18.576Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:19.883Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:21.097Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:22.525Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:23.756Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:25.162Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:26.596Z",
+    "endpoint": "/notifications",
+    "status": 200,
+    "data": []
+  },
+  {
+    "time": "2024-10-01T11:11:34.907Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:11:36.083Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:11:37.024Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  },
+  {
+    "time": "2024-10-01T11:11:38.076Z",
+    "endpoint": "/mock-notifications",
+    "status": 200,
+    "data": [
+      {
+        "notificationId": "315de9a7-fdb5-403a-be97-58e8a18b5e56",
+        "time": 1698668959,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "בית מאיר",
+          "נווה אילן",
+          "שורש",
+          "ירושלים - מערב",
+          "אבן ספיר"
+        ]
+      },
+      {
+        "notificationId": "6d6bd4d7-f64f-43d1-a443-cb39c36e6dd1",
+        "time": 1698668970,
+        "threat": 0,
+        "isDrill": false,
+        "cities": [
+          "אפרת",
+          "נווה דניאל",
+          "ירושלים - דרום",
+          "אורה",
+          "עמינדב"
+        ]
+      }
+    ]
+  }
+]
