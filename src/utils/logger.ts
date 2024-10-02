@@ -1,20 +1,42 @@
-import fs from 'fs';
-import path from 'path';
+// src/utils/logger.ts
 
-// Define log file paths
-const infoLogPath = path.join(__dirname, '../../logs/info.log');
-const errorLogPath = path.join(__dirname, '../../logs/error.log');
+import { createLogger, format, transports } from 'winston';
 
-export function logInfo(infoData: object) {
-  const logEntry = `${JSON.stringify(infoData, null, 2)},\n`;
+const logger = createLogger({
+  level: 'info',
+  format: format.combine(
+    format.timestamp({
+      format: 'YYYY-MM-DD HH:mm:ss',
+    }),
+    format.errors({ stack: true }),
+    format.splat(),
+    format.json()
+  ),
+  defaultMeta: { service: 'missile-warning-proxy' },
+  transports: [
+    //
+    // - Write all logs with level `error` and below to `error.log`
+    // - Write all logs with level `info` and below to `combined.log`
+    //
+    new transports.File({ filename: 'error.log', level: 'error' }),
+    new transports.File({ filename: 'combined.log' }),
+  ],
+});
 
-  // Write info logs to info.log
-  fs.appendFileSync(infoLogPath, logEntry, 'utf8');
+// If we're not in production then log to the `console` with the format:
+// `${info.level}: ${info.message} JSON.stringify({ ...rest }) `
+if (process.env.NODE_ENV !== 'production') {
+  logger.add(
+    new transports.Console({
+      format: format.combine(format.colorize(), format.simple()),
+    })
+  );
 }
 
-export function logError(errorData: object) {
-  const logEntry = `${JSON.stringify(errorData, null, 2)},\n`;
+export function logInfo(message: string, meta?: any) {
+  logger.info(message, meta);
+}
 
-  // Write error logs to error.log
-  fs.appendFileSync(errorLogPath, logEntry, 'utf8');
+export function logError(message: string, meta?: any) {
+  logger.error(message, meta);
 }
