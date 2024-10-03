@@ -1,14 +1,10 @@
 // src/server.ts
 
 import app from './app';
-import { logInfo, logError } from './utils/logger';
+import serverless from 'serverless-http';
 
-const PORT = process.env.PORT || 3010;
+// Wrap the Express app with serverless-http
+const handler = serverless(app);
 
-app
-  .listen(PORT, () => {
-    logInfo(`Proxy server running on port ${PORT}`);
-  })
-  .on('error', (err) => {
-    logError('Server failed to start', { error: err.message });
-  });
+// Export the handler for Vercel to use
+export default handler;
