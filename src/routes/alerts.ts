@@ -70,6 +70,7 @@ router.get('/', async (req: Request, res: Response) => {
         Referer: 'https://www.prog.co.il/',
         'X-Requested-With': 'XMLHttpRequest',
       },
+      timeout: 5000, // 5 seconds timeout
     });
 
     const { data } = response;

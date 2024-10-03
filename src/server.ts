@@ -4,7 +4,7 @@ import app from './app';
 import serverless from 'serverless-http';
 import { logInfo, logError } from './utils/logger';
 
-// Wrap the Express app with serverless-http to create a handler
+// Wrap the Express app with serverless-http
 const handler = serverless(app);
 
 // Optional: Add logging for each invocation
