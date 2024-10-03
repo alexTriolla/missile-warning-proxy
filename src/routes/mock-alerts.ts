@@ -15,7 +15,7 @@ const mockAlertItems: AlertItem[] = [
     alertid: '10010411011384',
     time: '2024-10-01 16:11:04',
     category: 'MissileAlert',
-    header: 'בת ים', // "Tel Aviv" in Hebrew
+    header: 'רעננה',  
     text: 'היכנסו למרחב המוגן ושהו בו 10 דקות',
     ttlseconds: '59',
     redwebno: '1384',
