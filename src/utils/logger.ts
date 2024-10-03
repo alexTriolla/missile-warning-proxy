@@ -45,7 +45,7 @@ const consoleFormat = format.combine(
 
 const fileFormat = format.combine(format.timestamp(), format.json());
 
-// Define transports
+// Create the Winston logger
 const logger = createLogger({
   levels: customLevels.levels,
   level: 'info',
@@ -55,8 +55,14 @@ const logger = createLogger({
     new transports.Console({
       format: consoleFormat,
     }),
+  ],
+  exitOnError: false,
+});
 
-    // Daily Rotate File Transport for Combined Logs
+// Conditionally add file transports only in non-production environments
+if (process.env.NODE_ENV !== 'production') {
+  // Daily Rotate File Transport for Combined Logs
+  logger.add(
     new DailyRotateFile({
       filename: path.join('logs', 'combined-%DATE%.log'),
       datePattern: 'YYYY-MM-DD',
@@ -64,9 +70,11 @@ const logger = createLogger({
       maxSize: '20m',
       maxFiles: '14d',
       format: fileFormat, // Keep JSON format for file logs
-    }),
+    })
+  );
 
-    // Daily Rotate File Transport for Error Logs
+  // Daily Rotate File Transport for Error Logs
+  logger.add(
     new DailyRotateFile({
       filename: path.join('logs', 'error-%DATE%.log'),
       datePattern: 'YYYY-MM-DD',
@@ -75,16 +83,6 @@ const logger = createLogger({
       maxFiles: '30d',
       level: 'error',
       format: fileFormat, // Keep JSON format for file logs
-    }),
-  ],
-  exitOnError: false,
-});
-
-// If not in production, also log to the console with the prettified format
-if (process.env.NODE_ENV !== 'production') {
-  logger.add(
-    new transports.Console({
-      format: consoleFormat,
     })
   );
 }
