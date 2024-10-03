@@ -1,8 +1,8 @@
 // src/utils/logger.ts
 
 import { createLogger, format, transports } from 'winston';
-import DailyRotateFile from 'winston-daily-rotate-file';
 import path from 'path';
+import winston from 'winston';
 
 // Define custom colors for log levels
 const customLevels = {
@@ -27,7 +27,6 @@ const customLevels = {
 };
 
 // Apply the custom colors
-import winston from 'winston';
 winston.addColors(customLevels.colors);
 
 // Define custom log formats
@@ -61,6 +60,8 @@ const logger = createLogger({
 
 // Conditionally add file transports only in non-production environments
 if (process.env.NODE_ENV !== 'production') {
+  const DailyRotateFile = require('winston-daily-rotate-file');
+
   // Daily Rotate File Transport for Combined Logs
   logger.add(
     new DailyRotateFile({
